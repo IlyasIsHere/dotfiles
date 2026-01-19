@@ -1,7 +1,7 @@
 return {
     "mason-org/mason-lspconfig.nvim",
     opts = {
-        ensure_installed = { 
+        ensure_installed = {
             "lua_ls",
             "clangd",
             "pyright",
@@ -17,9 +17,9 @@ return {
     },
     dependencies = {
         { "mason-org/mason.nvim", opts = {} },
-		{
-			"neovim/nvim-lspconfig",
-			dependencies = { "saghen/blink.cmp" },
+        {
+            "neovim/nvim-lspconfig",
+            dependencies = { "saghen/blink.cmp" },
         },
         {
             "j-hui/fidget.nvim",

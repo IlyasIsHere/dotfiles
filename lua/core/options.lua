@@ -23,7 +23,7 @@ vim.o.cursorline = true
 vim.o.scrolloff = 10
 vim.o.confirm = true
 vim.opt.foldenable = true
-vim.opt.foldmethod = "indent"
+vim.opt.foldmethod = "manual"
 vim.opt.termguicolors = true
 
 vim.schedule(function()

@@ -11,5 +11,3 @@ return {
     vim.keymap.set('n', '<leader>n', ":NvimTreeToggle<CR>")
   end,
 }
-
-
