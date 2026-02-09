@@ -1,2 +1,5 @@
 lazy-lock.json
 package-lock.json
+
+# oh-my-zsh
+ohmyzsh-custom/plugins/*
