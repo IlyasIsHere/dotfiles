@@ -3,7 +3,8 @@ export ZSH_CUSTOM="$HOME/dotfiles/ohmyzsh-custom"
 
 plugins=(
   git
-  
+  ssh-agent
+
   python
   pip
   node
