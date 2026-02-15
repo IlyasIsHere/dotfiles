@@ -25,6 +25,7 @@ vim.o.confirm = true
 vim.opt.foldenable = true
 vim.opt.foldmethod = "manual"
 vim.opt.termguicolors = true
+vim.opt.winborder = "rounded"
 
 vim.schedule(function()
     vim.o.clipboard = "unnamedplus"
