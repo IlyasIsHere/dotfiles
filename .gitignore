@@ -2,4 +2,7 @@ lazy-lock.json
 package-lock.json
 
 # oh-my-zsh
-ohmyzsh-custom/plugins/*
+ohmyzsh-custom/plugins/
+
+# tmux
+.config/tmux/plugins/
